@@ -22,7 +22,7 @@ class BannerServiceProvider extends ServiceProvider
             __DIR__ . '/../src/Controllers' => app_path('Http/Controllers/Admin/BannerManager'),
             __DIR__ . '/../src/Models' => app_path('Models/Admin/Banner'),
             __DIR__ . '/routes/web.php' => base_path('routes/admin/admin_banner.php'),
-        ], 'banners');
+        ], 'banner');
 
     }
 
