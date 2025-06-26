@@ -1,0 +1,22 @@
+{
+    "name": "admin/banners",
+    "description": "Manage promotional banners and visual advertisements displayed throughout the site to enhance marketing and user engagement.",
+    "type": "library",
+    "version": "1.0.0",  
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "admin\\banners\\": "src/"
+      }
+    },
+    "extra": { 
+      "laravel": {
+        "providers": [
+          "admin\\banners\\BannerServiceProvider"
+        ]
+      }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+  }
+  
