@@ -96,7 +96,7 @@
                                         @endforeach
                                     @else
                                         <tr>
-                                            <td colspan="4" class="text-center">No banners found.</td>
+                                            <td colspan="6" class="text-center">No banners found.</td>
                                         </tr>
                                     @endif
                                 </tbody>

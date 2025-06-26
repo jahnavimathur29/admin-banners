@@ -184,7 +184,7 @@
                     sort_order: {
                         required: true,
                         digits: true,
-                        min: 0,
+                        min: 1,
                     },
                     description: {
                         required: true,
@@ -216,6 +216,9 @@
                     description: {
                         required: "Please enter description",
                         minlength: "Description must be at least 3 characters long"
+                    },
+                    image: {
+                        required: "Image is required"
                     }
                 },
                 submitHandler: function(form) {
